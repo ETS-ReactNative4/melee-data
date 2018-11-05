@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Mario from './components/Mario';
+import { Switch, Route } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
@@ -19,7 +21,6 @@ class App extends Component {
         Choose your character:
         <br/>
         <select>
-        <option value="Mario">Mario</option>
             <option value="Mario">Mario</option>
             <option value="Donkey Kong">Donkey Kong</option>
             <option value="Link">Link</option>
@@ -49,6 +50,12 @@ class App extends Component {
           </select>
           <br/>
           <button>Submit</button>
+          <br/>
+
+          Test route: <br/>
+          <Switch>
+            <Route exact path = '/src/components/Mario.js' component={Mario}/>
+          </Switch>
         </h2>
 
 
