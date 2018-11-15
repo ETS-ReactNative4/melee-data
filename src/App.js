@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Mario from './components/Mario';
 import { Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 
 class App extends Component {
@@ -21,7 +23,7 @@ class App extends Component {
         Choose your character:
         <br/>
         <select>
-            <option value="Mario">Mario</option>
+            <option value="/mario">Mario</option>
             <option value="Donkey Kong">Donkey Kong</option>
             <option value="Link">Link</option>
             <option value="Samus">Samus</option>
@@ -52,11 +54,14 @@ class App extends Component {
           <button>Submit</button>
           <br/>
 
-          Test route: <br/>
+<Link to ='/mario'>Mario</Link>
+
           <Switch>
-            <Route exact path = '/src/components/Mario.js' component={Mario}/>
+            <Route exact path = '/mario' component={Mario}/>
           </Switch>
         </h2>
+
+        {/* <Link to= {"/mario"}>Test link</Link> */}
 
 
       </div>
