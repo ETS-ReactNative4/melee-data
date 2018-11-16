@@ -3,7 +3,8 @@ import './App.css';
 import Mario from './components/Mario';
 import { Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-
+import Card from './components/Card';
+import CharacterList from './components/CharacterList';
 
 
 class App extends Component {
@@ -19,11 +20,13 @@ class App extends Component {
         put all of the information right here, and have it load
         super fast (thanks React!). 
       </p>
-      <h2>
-        Choose your character:
+      {/* <h2>
+        Choose your character: */}
+        {/* </h2> */}
         <br/>
-        <select>
+        {/* <select onchange="window.location=this.value">
             <option value="/mario">Mario</option>
+        <option value="http://www.google.com">Test</option>
             <option value="Donkey Kong">Donkey Kong</option>
             <option value="Link">Link</option>
             <option value="Samus">Samus</option>
@@ -51,17 +54,18 @@ class App extends Component {
             <option value="Dr. Mario">Dr. Mario</option>
           </select>
           <br/>
-          <button>Submit</button>
+          <button>Submit</button> */}
           <br/>
 
-<Link to ='/mario'>Mario</Link>
+    <h3>Trying to link from a dropdown:</h3>
 
-          <Switch>
-            <Route exact path = '/mario' component={Mario}/>
-          </Switch>
-        </h2>
+    <Card/>
+    
+    
 
-        {/* <Link to= {"/mario"}>Test link</Link> */}
+<br/>
+
+<CharacterList/>
 
 
       </div>

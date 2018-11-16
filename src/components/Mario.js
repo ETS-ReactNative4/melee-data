@@ -8,10 +8,10 @@ class Mario extends Component {
   render() {
     return (
       <div className="Mario">
-      <h1>Itsa me</h1>
-      <ul>
+      <h1>This is the Mario component</h1>
+      {/* <ul>
       <li><Link to='/'>Home</Link></li>
-      </ul>
+      </ul> */}
       </div>
     );
   }
