@@ -10,6 +10,7 @@ import CharacterList from './components/CharacterList';
 class App extends Component {
   render() {
     return (
+      <body>
       <div className="App">
       <h1>
         Character Data Compilation
@@ -69,6 +70,7 @@ class App extends Component {
 
 
       </div>
+      </body>
     );
   }
 }
