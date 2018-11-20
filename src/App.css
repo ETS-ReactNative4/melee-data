@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   padding: 0 5vw 0 5vw;
   background-color: #222;
   color: white;
@@ -48,9 +48,15 @@ a{
 }
 
 move-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: blue;
+  color: red;
 
 }
 
 card-row{
-  
+  display: flex;
+  flex-wrap: wrap;
 }
