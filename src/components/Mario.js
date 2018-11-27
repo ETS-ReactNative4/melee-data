@@ -62,6 +62,69 @@ class Mario extends Component {
         <p>Total Frames: 32</p>
         <p>Active Frames: 5-7</p>
 
+        <h3>Down Tilt</h3>
+        <img src={dtilt} width="270px" />
+        <p>Total Frames: 34</p>
+        <p>Active Frames: 5-8</p>
+
+        <h3>Up Tilt</h3>
+        <img src={uptilt} width="270px" />
+        <p>Total Frames: 29</p>
+        <p>Active Frames: 4-12</p>
+
+        <h3>Dash Attack</h3>
+        <img src={uptilt} width="270px" />
+        <p>Total Frames: 48</p>
+        <p>Active Frames: 6-25</p>
+        <p>IASA Frames: 38</p>
+
+        <h3>Forward Smash</h3>
+        <img src={fsmash} width="270px" />
+        <p>Total Frames: 41</p>
+        <p>Active Frames: 12-16</p>
+
+        <h3>Up Smash</h3>
+        <img src={uptilt} width="270px" />
+        <p>Total Frames: 39</p>
+        <p>Active Frames: 9-11</p>
+        <p>Intangibility Frames: 9-11</p>
+
+        <h3>Down Smash</h3>
+        <img src={dsmash} width="270px" />
+        <p>Total Frames: 37</p>
+        <p>Active Frames: 5-6, 14</p>
+
+        <h3>Neutral Air</h3>
+        <img src={nair} width="270px" />
+        <p>Total Frames: 45</p>
+        <p>Active Frames: 3-32</p>
+        <p>Landlag Frames: 16/8 (L-Canceled)</p>
+
+        <h3>Forward Air</h3>
+        <img src={nair} width="270px" />
+        <p>Total Frames: 74</p>
+        <p>Active Frames: 18-22</p>
+        <p>Auto Cancellable Frames: 1-2, 28-74</p>
+        <p>IASA Frames: 60-74</p>
+        <p>Landlag Frames: 21/10 (L-Canceled)</p>
+
+        <h3>Neutral Air</h3>
+        <img src={nair} width="270px" />
+        <p>Total Frames: 45</p>
+        <p>Active Frames: 3-32</p>
+        <p>Landlag Frames: 16/8 (L-Canceled)</p>
+
+        <h3>Neutral Air</h3>
+        <img src={nair} width="270px" />
+        <p>Total Frames: 45</p>
+        <p>Active Frames: 3-32</p>
+        <p>Landlag Frames: 16/8 (L-Canceled)</p>
+        
+
+        
+  
+
+
         <Link to="/">Hide Component</Link>
       </div>
     );
