@@ -101,24 +101,34 @@ class Mario extends Component {
         <p>Landlag Frames: 16/8 (L-Canceled)</p>
 
         <h3>Forward Air</h3>
-        <img src={nair} width="270px" />
+        <img src={fair} width="270px" />
         <p>Total Frames: 74</p>
         <p>Active Frames: 18-22</p>
-        <p>Auto Cancellable Frames: 1-2, 28-74</p>
-        <p>IASA Frames: 60-74</p>
+        <p>Auto Cancel Frames: 1-2, 28-74</p>
+        <p>IASA Frame: 60</p>
         <p>Landlag Frames: 21/10 (L-Canceled)</p>
 
-        <h3>Neutral Air</h3>
-        <img src={nair} width="270px" />
-        <p>Total Frames: 45</p>
-        <p>Active Frames: 3-32</p>
-        <p>Landlag Frames: 16/8 (L-Canceled)</p>
+        <h3>Back Air</h3>
+        <img src={bair} width="270px" />
+        <p>Total Frames: 28</p>
+        <p>Active Frames: 6-17</p>
+        <p>Auto Cancel Frames: 1-5, 19-28</p>
+        <p>Landlag Frames: 15/7 (L-Canceled)</p>
 
-        <h3>Neutral Air</h3>
-        <img src={nair} width="270px" />
-        <p>Total Frames: 45</p>
-        <p>Active Frames: 3-32</p>
-        <p>Landlag Frames: 16/8 (L-Canceled)</p>
+        <h3>Up Air</h3>
+        <img src={upair} width="270px" />
+        <p>Total Frames: 33</p>
+        <p>Active Frames: 4-9</p>
+        <p>IASA Frame: 30</p>
+        <p>Landlag Frames: 15/7 (L-Canceled)</p>
+
+        <h3>Down Air</h3>
+        <img src={dair} width="270px" />
+        <p>Total Frames: 38</p>
+        <p>Active Frames: 10-11, 13,14, 16,17, 19-20, 22-23, 25-26</p>
+        <p>IASA Frame: 38</p>
+        <p>Auto Cancel Frames: 1-5, 33-38</p>
+        <p>Landlag: 23/11 (L-Canceled)</p>
         
 
         
