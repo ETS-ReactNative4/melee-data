@@ -73,7 +73,7 @@ class Mario extends Component {
         <p>Active Frames: 4-12</p>
 
         <h3>Dash Attack</h3>
-        <img src={uptilt} width="270px" />
+        <img src={dashattack} width="270px" />
         <p>Total Frames: 48</p>
         <p>Active Frames: 6-25</p>
         <p>IASA Frames: 38</p>
