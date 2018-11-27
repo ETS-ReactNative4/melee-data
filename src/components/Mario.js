@@ -34,7 +34,7 @@ class Mario extends Component {
         <h1>Mario</h1>
         <br />
 
-        <div className="card-row">
+<div classname = "flex-row">
           <div className="move-card">
             <h3>Jab 1</h3>
             <img src={jab1} width="270px" />
@@ -50,7 +50,7 @@ class Mario extends Component {
             <p>Active Frames: 3-4</p>
             <p>Input Window for Jab 3: 3-25</p>
           </div>
-        </div>
+          </div>
 
         <h3>Jab 3</h3>
         <img src={jab3} width="270px" />
