@@ -47,16 +47,15 @@ a{
   font-size: 1em;
 }
 
-move-card{
+.move-card{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  /* flex-direction: row; */
+  /* align-items: center; */
   background-color: blue;
   color: red;
-
 }
 
-card-row{
+/* .card-row{
   display: flex;
   flex-wrap: wrap;
-}
+} */
