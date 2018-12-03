@@ -30,11 +30,9 @@ import downb from "../images/mario/downb.gif";
 class Mario extends Component {
   render() {
     return (
-      <div className="Mario">
-        <h1>Mario</h1>
-        <br />
-        <div>
-          <div className="move-card">
+      <div>
+      <h1>Mario</h1>
+      <div className="all-moves">
             <h3>Jab 1</h3>
             <img src={jab1} width="270px" />
             <ul>
@@ -42,9 +40,7 @@ class Mario extends Component {
               <li>Active Frames: 2-3</li>
               <li>Input Window for Jab 2: 3-25</li>
             </ul>
-          </div>
 
-          <div>
             <h3>Jab 2</h3>
             <img src={jab2} width="270px" />
             <ul>
@@ -52,8 +48,6 @@ class Mario extends Component {
               <li>Active Frames: 3-4</li>
               <li>Input Window for Jab 3: 3-25</li>
             </ul>
-          </div>
-        </div>
         <h3>Jab 3</h3>
         <img src={jab3} width="270px" />
         <ul>
@@ -146,6 +140,7 @@ class Mario extends Component {
           <li>Landlag: 23/11 (L-Canceled)</li>
         </ul>
         <Link to="/">Hide Component</Link>
+      </div>
       </div>
     );
   }

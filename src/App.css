@@ -53,12 +53,27 @@ a{
   /* align-items: center; */
   background-color: blue;
   color: red;
+  width: 40vw;
+}
+
+.all-moves{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* .card-row{
   display: flex;
   flex-wrap: wrap;
 } */
+
+div.all-moves > img{
+  width: 270px;
+  height: 170px;
+}
+
+div.all-moves > h1{
+  padding-bottom: 15vh;
+}
 
 div.move-card > h3{
 
