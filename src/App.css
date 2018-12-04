@@ -47,24 +47,17 @@ a{
   font-size: 1em;
 }
 
-.move-card{
-  display: flex;
-  /* flex-direction: row; */
-  /* align-items: center; */
-  background-color: blue;
-  color: red;
-  width: 40vw;
-}
-
 .all-moves{
   display: flex;
   flex-wrap: wrap;
 }
 
-/* .card-row{
-  display: flex;
-  flex-wrap: wrap;
-} */
+.move-card{
+  width: 370px;
+  padding-right: 50px;
+  text-align: left;
+}
+
 
 div.all-moves > img{
   width: 270px;
@@ -73,8 +66,4 @@ div.all-moves > img{
 
 div.all-moves > h1{
   padding-bottom: 15vh;
-}
-
-div.move-card > h3{
-
 }

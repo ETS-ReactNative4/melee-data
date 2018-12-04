@@ -31,8 +31,9 @@ class Mario extends Component {
   render() {
     return (
       <div>
-      <h1>Mario</h1>
-      <div className="all-moves">
+        <h1>Mario</h1>
+        <div className="all-moves">
+          <div className="move-card">
             <h3>Jab 1</h3>
             <img src={jab1} width="270px" />
             <ul>
@@ -40,7 +41,9 @@ class Mario extends Component {
               <li>Active Frames: 2-3</li>
               <li>Input Window for Jab 2: 3-25</li>
             </ul>
+          </div>
 
+          <div className = "move-card">
             <h3>Jab 2</h3>
             <img src={jab2} width="270px" />
             <ul>
@@ -48,99 +51,126 @@ class Mario extends Component {
               <li>Active Frames: 3-4</li>
               <li>Input Window for Jab 3: 3-25</li>
             </ul>
-        <h3>Jab 3</h3>
-        <img src={jab3} width="270px" />
-        <ul>
-          <li>Total Frames: 22</li>
-          <li>Active Frames: 5-9</li>
-        </ul>
-        <h3>Forward Tilt</h3>
-        <img src={ftilt} width="270px" />
-        <ul>
-          <li>Total Frames: 32</li>
-          <li>Active Frames: 5-7</li>
-        </ul>
-        <h3>Down Tilt</h3>
-        <img src={dtilt} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 34</li>
-          <li>Active Frames: 5-8</li>
-        </ul>
-        <h3>Up Tilt</h3>
-        <img src={uptilt} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 29</li>
-          <li>Active Frames: 4-12</li>
-        </ul>
-        <h3>Dash Attack</h3>
-        <img src={dashattack} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 48</li>
-          <li>Active Frames: 6-25</li>
-          <li>IASA Frames: 38</li>
-        </ul>
-        <h3>Forward Smash</h3>
-        <img src={fsmash} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 41</li>
-          <li>Active Frames: 12-16</li>
-        </ul>
-        <h3>Up Smash</h3>
-        <img src={uptilt} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 39</li>
-          <li>Active Frames: 9-11</li>
-          <li>Intangibility Frames: 9-11</li>
-        </ul>
-        <h3>Down Smash</h3>
-        <img src={dsmash} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 37</li>
-          <li>Active Frames: 5-6, 14</li>
-        </ul>
-        <h3>Neutral Air</h3>
-        <img src={nair} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 45</li>
-          <li>Active Frames: 3-32</li>
-          <li>Landlag Frames: 16/8 (L-Canceled)</li>
-        </ul>
-        <h3>Forward Air</h3>
-        <img src={fair} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 74</li>
-          <li>Active Frames: 18-22</li>
-          <li>Auto Cancel Frames: 1-2, 28-74</li>
-          <li>IASA Frame: 60</li>
-          <li>Landlag Frames: 21/10 (L-Canceled)</li>
-        </ul>
-        <h3>Back Air</h3>
-        <img src={bair} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 28</li>
-          <li>Active Frames: 6-17</li>
-          <li>Auto Cancel Frames: 1-5, 19-28</li>
-          <li>Landlag Frames: 15/7 (L-Canceled)</li>
-        </ul>
-        <h3>Up Air</h3>
-        <img src={upair} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 33</li>
-          <li>Active Frames: 4-9</li>
-          <li>IASA Frame: 30</li>
-          <li>Landlag Frames: 15/7 (L-Canceled)</li>
-        </ul>
-        <h3>Down Air</h3>
-        <img src={dair} width="270px" />{" "}
-        <ul>
-          <li>Total Frames: 38</li>
-          <li>Active Frames: 10-11, 13,14, 16,17, 19-20, 22-23, 25-26</li>
-          <li>IASA Frame: 38</li>
-          <li>Auto Cancel Frames: 1-5, 33-38</li>
-          <li>Landlag: 23/11 (L-Canceled)</li>
-        </ul>
-        <Link to="/">Hide Component</Link>
-      </div>
+          </div>
+          <div className = "move-card">
+            <h3>Jab 3</h3>
+            <img src={jab3} width="270px" />
+            <ul>
+              <li>Total Frames: 22</li>
+              <li>Active Frames: 5-9</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Forward Tilt</h3>
+            <img src={ftilt} width="270px" />
+            <ul>
+              <li>Total Frames: 32</li>
+              <li>Active Frames: 5-7</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Down Tilt</h3>
+            <img src={dtilt} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 34</li>
+              <li>Active Frames: 5-8</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Up Tilt</h3>
+            <img src={uptilt} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 29</li>
+              <li>Active Frames: 4-12</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Dash Attack</h3>
+            <img src={dashattack} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 48</li>
+              <li>Active Frames: 6-25</li>
+              <li>IASA Frames: 38</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Forward Smash</h3>
+            <img src={fsmash} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 41</li>
+              <li>Active Frames: 12-16</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Up Smash</h3>
+            <img src={uptilt} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 39</li>
+              <li>Active Frames: 9-11</li>
+              <li>Intangibility Frames: 9-11</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Down Smash</h3>
+            <img src={dsmash} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 37</li>
+              <li>Active Frames: 5-6, 14</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Neutral Air</h3>
+            <img src={nair} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 45</li>
+              <li>Active Frames: 3-32</li>
+              <li>Landlag Frames: 16/8 (L-Canceled)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Forward Air</h3>
+            <img src={fair} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 74</li>
+              <li>Active Frames: 18-22</li>
+              <li>Auto Cancel Frames: 1-2, 28-74</li>
+              <li>IASA Frame: 60</li>
+              <li>Landlag Frames: 21/10 (L-Canceled)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Back Air</h3>
+            <img src={bair} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 28</li>
+              <li>Active Frames: 6-17</li>
+              <li>Auto Cancel Frames: 1-5, 19-28</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Up Air</h3>
+            <img src={upair} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 33</li>
+              <li>Active Frames: 4-9</li>
+              <li>IASA Frame: 30</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Down Air</h3>
+            <img src={dair} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 38</li>
+              <li>Active Frames: 10-11, 13,14, 16,17, 19-20, 22-23, 25-26</li>
+              <li>IASA Frame: 38</li>
+              <li>Auto Cancel Frames: 1-5, 33-38</li>
+              <li>Landlag: 23/11 (L-Canceled)</li>
+            </ul>
+          </div>
+          <Link to="/">Hide Component</Link>
+        </div>
       </div>
     );
   }
