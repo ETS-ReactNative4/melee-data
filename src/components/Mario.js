@@ -60,7 +60,7 @@ class Mario extends Component {
               <li>Active Frames: 5-9</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Forward Tilt</h3>
             <img src={ftilt} width="270px" />
             <ul>
@@ -68,7 +68,7 @@ class Mario extends Component {
               <li>Active Frames: 5-7</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Down Tilt</h3>
             <img src={dtilt} width="270px" />{" "}
             <ul>
@@ -76,7 +76,7 @@ class Mario extends Component {
               <li>Active Frames: 5-8</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Up Tilt</h3>
             <img src={uptilt} width="270px" />{" "}
             <ul>
@@ -84,7 +84,7 @@ class Mario extends Component {
               <li>Active Frames: 4-12</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Dash Attack</h3>
             <img src={dashattack} width="270px" />{" "}
             <ul>
@@ -93,7 +93,7 @@ class Mario extends Component {
               <li>IASA Frames: 38</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Forward Smash</h3>
             <img src={fsmash} width="270px" />{" "}
             <ul>
@@ -101,7 +101,7 @@ class Mario extends Component {
               <li>Active Frames: 12-16</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Up Smash</h3>
             <img src={uptilt} width="270px" />{" "}
             <ul>
@@ -110,7 +110,7 @@ class Mario extends Component {
               <li>Intangibility Frames: 9-11</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Down Smash</h3>
             <img src={dsmash} width="270px" />{" "}
             <ul>
@@ -118,7 +118,7 @@ class Mario extends Component {
               <li>Active Frames: 5-6, 14</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Neutral Air</h3>
             <img src={nair} width="270px" />{" "}
             <ul>
@@ -127,7 +127,7 @@ class Mario extends Component {
               <li>Landlag Frames: 16/8 (L-Canceled)</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Forward Air</h3>
             <img src={fair} width="270px" />{" "}
             <ul>
@@ -138,7 +138,7 @@ class Mario extends Component {
               <li>Landlag Frames: 21/10 (L-Canceled)</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Back Air</h3>
             <img src={bair} width="270px" />{" "}
             <ul>
@@ -148,7 +148,7 @@ class Mario extends Component {
               <li>Landlag Frames: 15/7 (L-Canceled)</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Up Air</h3>
             <img src={upair} width="270px" />{" "}
             <ul>
@@ -158,7 +158,7 @@ class Mario extends Component {
               <li>Landlag Frames: 15/7 (L-Canceled)</li>
             </ul>
           </div>
-          <div>
+          <div className = "move-card">
             <h3>Down Air</h3>
             <img src={dair} width="270px" />{" "}
             <ul>
