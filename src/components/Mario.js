@@ -19,10 +19,7 @@ import upair from "../images/mario/upair.gif";
 import bair from "../images/mario/bair.gif";
 import grab from "../images/mario/grab.gif";
 import dashgrab from "../images/mario/dashgrab.gif";
-
-// import neutralb from "../images/mario/neutralb.gif";
-// need to find a working gif
-
+import neutralb from "../images/mario/neutralb.gif";
 import sideb from "../images/mario/sideb.gif";
 import upb from "../images/mario/upb.gif";
 import downb from "../images/mario/downb.gif";
@@ -169,6 +166,46 @@ class Mario extends Component {
               <li>Landlag: 23/11 (L-Canceled)</li>
             </ul>
           </div>
+          <div className = "move-card">
+            <h3>Neutral B</h3>
+            <img src={neutralb} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 28</li>
+              <li>Active Frames: 6-17</li>
+              <li>Auto Cancel Frames: 1-5, 19-28</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+            </div>
+            <div className = "move-card">
+            <h3>Up B</h3>
+            <img src={upb} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 28</li>
+              <li>Active Frames: 6-17</li>
+              <li>Auto Cancel Frames: 1-5, 19-28</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+            </div>
+            <div className = "move-card">
+            <h3>Down B</h3>
+            <img src={downb} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 28</li>
+              <li>Active Frames: 6-17</li>
+              <li>Auto Cancel Frames: 1-5, 19-28</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+            </div>
+            <div className = "move-card">
+            <h3>Side B</h3>
+            <img src={sideb} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 28</li>
+              <li>Active Frames: 6-17</li>
+              <li>Auto Cancel Frames: 1-5, 19-28</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+            </ul>
+            </div>
           <Link to="/">Hide Component</Link>
         </div>
       </div>
