@@ -170,40 +170,36 @@ class Mario extends Component {
             <h3>Neutral B</h3>
             <img src={neutralb} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 28</li>
-              <li>Active Frames: 6-17</li>
-              <li>Auto Cancel Frames: 1-5, 19-28</li>
-              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+              <li>Total Frames: 43</li>
+              <li>Active Frames: 14-88</li>
             </ul>
             </div>
             <div className = "move-card">
             <h3>Up B</h3>
             <img src={upb} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 28</li>
-              <li>Active Frames: 6-17</li>
-              <li>Auto Cancel Frames: 1-5, 19-28</li>
-              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+              <li>Total Frames: 37</li>
+              <li>Active Frames: 3-24</li>
+              <li>Intangibility Frames: 3-6</li>
             </ul>
             </div>
             <div className = "move-card">
             <h3>Down B</h3>
             <img src={downb} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 28</li>
-              <li>Active Frames: 6-17</li>
-              <li>Auto Cancel Frames: 1-5, 19-28</li>
-              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+              <li>Total Frames: 79</li>
+              <li>Active Frames: 8-9, 12-13, 15-16, 18-19, 21-22, 24-25, 27-28
+                38-39
+              </li>
             </ul>
             </div>
             <div className = "move-card">
             <h3>Side B</h3>
             <img src={sideb} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 28</li>
-              <li>Active Frames: 6-17</li>
-              <li>Auto Cancel Frames: 1-5, 19-28</li>
-              <li>Landlag Frames: 15/7 (L-Canceled)</li>
+              <li>Total Frames: 35</li>
+              <li>Active Frames: 12-14</li>
+              <li>Reflect Frames: 6-33</li>
             </ul>
             </div>
           <Link to="/">Hide Component</Link>
