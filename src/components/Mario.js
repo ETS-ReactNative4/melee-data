@@ -202,6 +202,22 @@ class Mario extends Component {
               <li>Reflect Frames: 6-33</li>
             </ul>
             </div>
+            <div className = "move-card">
+            <h3>Grab</h3>
+            <img src={grab} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 30</li>
+              <li>Active Frames: 7-8</li>
+            </ul>
+            </div>
+            <div className = "move-card">
+            <h3>Dash Grab</h3>
+            <img src={dashgrab} width="270px" />{" "}
+            <ul>
+              <li>Total Frames: 40</li>
+              <li>Active Frames: 11-12</li>
+            </ul>
+            </div>
           <Link to="/">Hide Component</Link>
         </div>
       </div>
