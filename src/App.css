@@ -54,7 +54,13 @@ a{
 
 .move-card{
   width: 370px;
-  padding-right: 50px;
+}
+
+div.move-card > ul{
+}
+
+div.move-card > ul > li{
+  padding-right: 100px;
 }
 
 
