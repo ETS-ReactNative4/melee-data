@@ -53,8 +53,8 @@ class Luigi extends Component {
             <h3>Jab 3</h3>
             <img src={jab3} width="270px" />
             <ul>
-              <li>Total Frames: 22</li>
-              <li>Active Frames: 5-9</li>
+              <li>Total Frames: 30</li>
+              <li>Active Frames: 5-6</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -62,7 +62,7 @@ class Luigi extends Component {
             <img src={ftilt} width="270px" />
             <ul>
               <li>Total Frames: 32</li>
-              <li>Active Frames: 5-7</li>
+              <li>Active Frames: 4-8</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -70,7 +70,7 @@ class Luigi extends Component {
             <img src={dtilt} width="270px" />{" "}
             <ul>
               <li>Total Frames: 34</li>
-              <li>Active Frames: 5-8</li>
+              <li>Active Frames: 5-7</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -85,9 +85,9 @@ class Luigi extends Component {
             <h3>Dash Attack</h3>
             <img src={dashattack} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 48</li>
-              <li>Active Frames: 6-25</li>
-              <li>IASA Frames: 38</li>
+              <li>Total Frames: 63</li>
+              <li>Active Frames: 4, 10, 16, 22, 29, 37</li>
+              <li>IASA Frames: 59</li>
             </ul>
           </div>
           <div className = "move-card">
