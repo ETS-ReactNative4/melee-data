@@ -95,7 +95,7 @@ class Luigi extends Component {
             <img src={fsmash} width="270px" />{" "}
             <ul>
               <li>Total Frames: 41</li>
-              <li>Active Frames: 12-16</li>
+              <li>Active Frames: 12-13</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -112,7 +112,7 @@ class Luigi extends Component {
             <img src={dsmash} width="270px" />{" "}
             <ul>
               <li>Total Frames: 37</li>
-              <li>Active Frames: 5-6, 14</li>
+              <li>Active Frames: 5-6, 14-15</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -120,19 +120,20 @@ class Luigi extends Component {
             <img src={nair} width="270px" />{" "}
             <ul>
               <li>Total Frames: 45</li>
-              <li>Active Frames: 3-32</li>
-              <li>Landlag Frames: 16/8 (L-Canceled)</li>
+              <li>Active Frames: 3-31</li>
+              <li>Auto Cancel Frames: 1-2, 36-45</li>
+              <li>Landlag Frames: 15/7 (L-Canceled)</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Forward Air</h3>
             <img src={fair} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 74</li>
-              <li>Active Frames: 18-22</li>
-              <li>Auto Cancel Frames: 1-2, 28-74</li>
-              <li>IASA Frame: 60</li>
-              <li>Landlag Frames: 21/10 (L-Canceled)</li>
+              <li>Total Frames: 34</li>
+              <li>Active Frames: 7-10</li>
+              <li>Auto Cancel Frames: 20-34</li>
+              <li>IASA Frame: 33</li>
+              <li>Landlag Frames: 25/12 (L-Canceled)</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -150,8 +151,9 @@ class Luigi extends Component {
             <img src={upair} width="270px" />{" "}
             <ul>
               <li>Total Frames: 33</li>
-              <li>Active Frames: 4-9</li>
+              <li>Active Frames: 5-7</li>
               <li>IASA Frame: 30</li>
+              <li>Auto Cancel Frames: 1-2, 16-33</li>
               <li>Landlag Frames: 15/7 (L-Canceled)</li>
             </ul>
           </div>
@@ -159,19 +161,19 @@ class Luigi extends Component {
             <h3>Down Air</h3>
             <img src={dair} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 38</li>
-              <li>Active Frames: 10-11, 13,14, 16,17, 19-20, 22-23, 25-26</li>
-              <li>IASA Frame: 38</li>
-              <li>Auto Cancel Frames: 1-5, 33-38</li>
-              <li>Landlag: 23/11 (L-Canceled)</li>
+              <li>Total Frames: 32</li>
+              <li>Active Frames: 10-14</li>
+              <li>IASA Frame: 29</li>
+              <li>Auto Cancel Frames: 1-5, 24-32</li>
+              <li>Landlag: 18/9 (L-Canceled)</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Neutral B</h3>
             <img src={neutralb} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 43</li>
-              <li>Active Frames: 14-88</li>
+              <li>Total Frames: 46</li>
+              <li>Active Frames: 17-66</li>
             </ul>
             </div>
             <div className = "move-card">
