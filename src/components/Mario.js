@@ -100,7 +100,7 @@ class Mario extends Component {
           </div>
           <div className = "move-card">
             <h3>Up Smash</h3>
-            <img src={uptilt} width="270px" />{" "}
+            <img src={upsmash} width="270px" />{" "}
             <ul>
               <li>Total Frames: 39</li>
               <li>Active Frames: 9-11</li>

@@ -29,58 +29,61 @@ class Ganondorf extends Component {
         <h1>Ganondorf</h1>
         <div className="all-moves">
           <div className="move-card">
-            <h3>Jab 1</h3>
+            <h3>Jab</h3>
             <img src={jab1} width="270px" />
             <ul>
-              <li>Total Frames: 15</li>
-              <li>Active Frames: 2-3</li>
-              <li>Input Window for Jab 2: 3-25</li>
+              <li>Total Frames: 21</li>
+              <li>Active Frames: 3-5</li>
+              <li>IASA Frame: 19</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Forward Tilt</h3>
             <img src={ftilt} width="270px" />
             <ul>
-              <li>Total Frames: 32</li>
-              <li>Active Frames: 4-8</li>
+              <li>Total Frames: 29</li>
+              <li>Active Frames: 9-11</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Down Tilt</h3>
             <img src={dtilt} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 34</li>
-              <li>Active Frames: 5-7</li>
+              <li>Total Frames: 35</li>
+              <li>Active Frames: 10-12</li>
+              <li>IASA Frame: 35</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Up Tilt</h3>
             <img src={uptilt} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 29</li>
-              <li>Active Frames: 4-12</li>
+              <li>Total Frames: 114</li>
+              <li>Active Frames: 81-83</li>
+              <li>IASA Frame: 113</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Dash Attack</h3>
             <img src={dashattack} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 63</li>
-              <li>Active Frames: 4, 10, 16, 22, 29, 37</li>
-              <li>IASA Frames: 59</li>
+              <li>Total Frames: 39</li>
+              <li>Active Frames: 7-16</li>
+              <li>IASA Frames: 38</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Forward Smash</h3>
             <img src={fsmash} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 41</li>
-              <li>Active Frames: 12-13</li>
+              <li>Total Frames: 66</li>
+              <li>Active Frames: 20-24</li>
+              <li>IASA Frames: 60</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Up Smash</h3>
-            <img src={uptilt} width="270px" />{" "}
+            <img src={upsmash} width="270px" />{" "}
             <ul>
               <li>Total Frames: 39</li>
               <li>Active Frames: 9-11</li>
