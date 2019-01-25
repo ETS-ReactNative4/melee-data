@@ -15,9 +15,7 @@ class CharacterList extends Component {
 <Link to ='/mario'>Mario</Link>
 </li>
 
-<Switch>
-  <Route exact path = '/mario' component={Mario}/>
-</Switch>
+
 
   <li>
 
@@ -25,9 +23,6 @@ class CharacterList extends Component {
 
 </li>
 
-<Switch>
-  <Route exact path = '/luigi' component={Luigi}/>
-</Switch>
 
   <li>
 
@@ -35,11 +30,21 @@ class CharacterList extends Component {
 
 </li>
 
+
+</ul>
+
+<Switch>
+  <Route exact path = '/mario' component={Mario}/>
+</Switch>
+
+<Switch>
+  <Route exact path = '/luigi' component={Luigi}/>
+</Switch>
+
 <Switch>
   <Route exact path = '/ganondorf' component={Ganondorf}/>
 </Switch>
 
-</ul>
 
 
       </div>
