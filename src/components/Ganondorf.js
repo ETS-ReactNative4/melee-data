@@ -2,33 +2,31 @@ import React, { Component } from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 import Gif from "./Gif";
-import jab1 from "../images/luigi/jab1.gif";
-import jab2 from "../images/luigi/jab2.gif";
-import jab3 from "../images/luigi/jab3.gif";
-import ftilt from "../images/luigi/ftilt.gif";
-import dtilt from "../images/luigi/dtilt.gif";
-import uptilt from "../images/luigi/uptilt.gif";
-import dashattack from "../images/luigi/dashattack.gif";
-import fsmash from "../images/luigi/fsmash.gif";
-import dsmash from "../images/luigi/dsmash.gif";
-import upsmash from "../images/luigi/upsmash.gif";
-import nair from "../images/luigi/nair.gif";
-import fair from "../images/luigi/fair.gif";
-import dair from "../images/luigi/dair.gif";
-import upair from "../images/luigi/upair.gif";
-import bair from "../images/luigi/bair.gif";
-import grab from "../images/luigi/grab.gif";
-import dashgrab from "../images/luigi/dashgrab.gif";
-import neutralb from "../images/luigi/neutralb.gif";
-import sideb from "../images/luigi/sideb.gif";
-import upb from "../images/luigi/upb.gif";
-import downb from "../images/luigi/downb.gif";
+import jab1 from "../images/ganondorf/jab1.gif";
+import ftilt from "../images/ganondorf/ftilt.gif";
+import dtilt from "../images/ganondorf/dtilt.gif";
+import uptilt from "../images/ganondorf/uptilt.gif";
+import dashattack from "../images/ganondorf/dashattack.gif";
+import fsmash from "../images/ganondorf/fsmash.gif";
+import dsmash from "../images/ganondorf/dsmash.gif";
+import upsmash from "../images/ganondorf/upsmash.gif";
+import nair from "../images/ganondorf/nair.gif";
+import fair from "../images/ganondorf/fair.gif";
+import dair from "../images/ganondorf/dair.gif";
+import upair from "../images/ganondorf/upair.gif";
+import bair from "../images/ganondorf/bair.gif";
+import grab from "../images/ganondorf/grab.gif";
+import dashgrab from "../images/ganondorf/dashgrab.gif";
+import neutralb from "../images/ganondorf/neutralb.gif";
+import sideb from "../images/ganondorf/sideb.gif";
+import upb from "../images/ganondorf/upb.gif";
+import downb from "../images/ganondorf/downb.gif";
 
-class Luigi extends Component {
+class Ganondorf extends Component {
   render() {
     return (
       <div>
-        <h1>Luigi</h1>
+        <h1>Ganondorf</h1>
         <div className="all-moves">
           <div className="move-card">
             <h3>Jab 1</h3>
@@ -37,24 +35,6 @@ class Luigi extends Component {
               <li>Total Frames: 15</li>
               <li>Active Frames: 2-3</li>
               <li>Input Window for Jab 2: 3-25</li>
-            </ul>
-          </div>
-
-          <div className = "move-card">
-            <h3>Jab 2</h3>
-            <img src={jab2} width="270px" />
-            <ul>
-              <li>Total Frames: 18</li>
-              <li>Active Frames: 3-4</li>
-              <li>Input Window for Jab 3: 3-25</li>
-            </ul>
-          </div>
-          <div className = "move-card">
-            <h3>Jab 3</h3>
-            <img src={jab3} width="270px" />
-            <ul>
-              <li>Total Frames: 30</li>
-              <li>Active Frames: 5-6</li>
             </ul>
           </div>
           <div className = "move-card">
@@ -226,4 +206,4 @@ class Luigi extends Component {
   }
 }
 
-export default Luigi;
+export default Ganondorf;
