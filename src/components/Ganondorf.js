@@ -85,17 +85,18 @@ class Ganondorf extends Component {
             <h3>Up Smash</h3>
             <img src={upsmash} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 39</li>
-              <li>Active Frames: 9-11</li>
-              <li>Intangibility Frames: 9-11</li>
+              <li>Total Frames: 54</li>
+              <li>Active Frames: 21-23, 26-29</li>
+              <li>IASA Frame: 40</li>
             </ul>
           </div>
           <div className = "move-card">
             <h3>Down Smash</h3>
             <img src={dsmash} width="270px" />{" "}
             <ul>
-              <li>Total Frames: 37</li>
-              <li>Active Frames: 5-6, 14-15</li>
+              <li>Total Frames: 49</li>
+              <li>Active Frames: 19-22, 29,32</li>
+              <li>IASA Frame: 47</li>
             </ul>
           </div>
           <div className = "move-card">
